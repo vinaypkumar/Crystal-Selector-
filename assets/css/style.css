@@ -1,0 +1,44 @@
+body {
+	padding:5px;
+    background: url('../images/back.jpg');
+}
+
+#title{
+	margin:3px;
+	background-color: #c97123;
+}
+
+#description{
+	margin:3px;
+	background-color: #fbe6cd;
+}
+
+#goal{
+	margin:3px;
+	background-color: #5bc97e;
+}
+
+#table{
+	margin:3px;
+	background-color: #4bfdfc;
+}
+
+#banner{
+	color: #ffffff;
+	margin:3px;
+	background-color: #2ba296;
+}
+
+#scoreBox{
+	color: #ffffff;
+	margin:3px;
+	background-color: #2ba296;
+}
+
+
+
+.gem{
+	margin:8px;
+	height: 100px;
+    width: 100px;
+}

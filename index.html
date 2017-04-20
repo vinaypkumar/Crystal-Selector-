@@ -1,0 +1,85 @@
+<!-- STUDENTS: Head to float.css for your assignment -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Selector</title>  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="container">
+      
+      <div class="row">
+         
+        <div class="col-md-4" id="title">
+          <h1>Crystal Selector!</h1>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6" id="description">
+          <br><p id="desc">See that number? If not, just leave now because the rest of this won't make any sense. Anyways, your job is to use the crystals below to get that same number!</p>
+          <p id="desc">Each crystal has a specific numerical value that's hidden because if it wasn't this would turn into math homework rather than a game. When you click a crystal, its random value is added to your total score, displayed below.</p>
+          <p id="desc">If your score goes over the goal number though, you lose, so don't just click randomly.</p>
+          <p id="desc">And of course, the values are all randomized and reset with each new game. Good luck!</p><br>
+        </div>
+       </div>
+
+       <div class="row">
+        <div class="col-md-3" id="goal">
+          <h1 id="target"></h1>
+          <br>
+          <br>
+        </div>
+        <div class="col-md-3" id="table">
+          <br>
+          <p id="win">Wins: <div id="wins"></div></p>
+          <br>
+          <p id="lose">Losses: <div id="losses"></div></p>
+          <br>
+       </div>
+       </div>
+
+       <div class="row">
+         <div class="col-md-2" id="crystal">
+            <img class="gem" id="c1" src="assets/images/aquamarine.png">
+          </div>
+          <div class="col-md-2" id="crystal">
+            <img class="gem" id="c2" src="assets/images/emerald.png">
+          </div>
+          <div class="col-md-2" id="crystal">
+            <img class="gem" id="c3" src="assets/images/zircon.png">
+          </div>
+          <div class="col-md-2" id="crystal">
+            <img class="gem" id="c4" src="assets/images/amethyst.png">
+          </div>
+       </div>
+
+       <div class="row">
+        <div class="col-sm-4" id="banner">
+            <h3>Your total score so far is: </h3>
+        </div>
+       </div>
+
+       <div class="row">
+        <div class="col-md-4" id="scoreBox">
+            <h2 id="score"></h2>
+        </div>
+       </div>
+         
+
+
+
+
+
+
+
+</body>
+</html>
